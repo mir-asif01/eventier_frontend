@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="h-96 flex justify-center items-center">
+    <section className="h-96 flex justify-center items-center ">
       <div className="mt-32 text-center">
         <h1 className="text-[70px] text-zinc-900 font-semibold">
           manage events with
