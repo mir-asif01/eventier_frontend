@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`antialiased bg-neutral-100`}>
         <Navbar />
-        {children}
+        <main className="mt-20">{children}</main>
         <Footer />
       </body>
     </html>

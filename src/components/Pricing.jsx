@@ -4,7 +4,7 @@ export default function Pricing() {
       <div className="w-2/3">
         <h1 className="text-center text-5xl font-bold mb-20">Pricing</h1>
         <div className="flex justify-around items-center gap-10">
-          <div className="border border-slate-300 rounded-3xl px-5 py-3 text-xl">
+          <div className="border border-slate-300 rounded-3xl px-5 py-3 text-xl flex items-center flex-col">
             <h1 className="text-5xl font-semibold border-b mb-4">$9/month</h1>
             <ul className="mt-2 text-4xl flex flex-col gap-2">
               <li>feature 1</li>
@@ -13,8 +13,11 @@ export default function Pricing() {
               <li>feature 1</li>
               <li>feature 1</li>
             </ul>
+            <button className="px-5 py-1 bg-zinc-950 rounded-full text-white w-full mt-4 text-lg">
+              start
+            </button>
           </div>
-          <div className="border border-slate-300 rounded-3xl px-5 py-3 text-xl">
+          <div className="border border-slate-300 rounded-3xl px-5 py-3 text-xl flex items-center flex-col">
             <h1 className="text-5xl font-semibold border-b mb-4">$9/month</h1>
             <ul className="mt-2 text-4xl flex flex-col gap-2">
               <li>feature 1</li>
@@ -23,8 +26,11 @@ export default function Pricing() {
               <li>feature 1</li>
               <li>feature 1</li>
             </ul>
+            <button className="px-5 py-1 bg-zinc-950 rounded-full text-white w-full mt-4 text-lg">
+              start
+            </button>
           </div>
-          <div className="border border-slate-300 rounded-3xl px-5 py-3 text-xl">
+          <div className="border border-slate-300 rounded-3xl px-5 py-3 text-xl flex items-center flex-col">
             <h1 className="text-5xl font-semibold border-b mb-4">$9/month</h1>
             <ul className="mt-2 text-4xl flex flex-col gap-2">
               <li>feature 1</li>
@@ -33,6 +39,9 @@ export default function Pricing() {
               <li>feature 1</li>
               <li>feature 1</li>
             </ul>
+            <button className="px-5 py-1 bg-zinc-950 rounded-full text-white w-full mt-4 text-lg">
+              start
+            </button>
           </div>
         </div>
       </div>
