@@ -111,6 +111,22 @@ export default function CreateEvent() {
               />
             </div>
           </div>
+          <div>
+            <label
+              htmlFor="eventDestination"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Event Destination
+            </label>
+            <input
+              type="text"
+              name="eventDestination"
+              id="eventDestination"
+              placeholder="events destination"
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+              required
+            />
+          </div>
           <button
             type="submit"
             className="w-full text-white bg-zinc-900 hover:bg-slate-100 hover:border hover:text-zinc-950 font-medium rounded-lg text-sm px-5 py-2.5 text-center"

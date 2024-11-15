@@ -1,6 +1,6 @@
 export default function ProblemsWeSolve() {
   return (
-    <section className="p-20">
+    <section className="p-20 mt-32 bg-neutral-50">
       <h1 className="text-5xl text-center mb-20">
         Problem we are trying to solve
       </h1>

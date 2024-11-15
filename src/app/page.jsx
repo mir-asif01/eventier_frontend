@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="mt-16">
       <HeroSection />
-      <Pricing />
+      {/* <Pricing /> */}
       <ProblemsWeSolve />
     </main>
   )

@@ -30,6 +30,12 @@ export default function Navbar() {
           <Link className="font-semibold cursor-pointer" href={"/signin"}>
             Signin
           </Link>
+          <Link
+            className="font-semibold cursor-pointer"
+            href={"/register/event_name"}
+          >
+            register
+          </Link>
         </div>
       </div>
     </section>
